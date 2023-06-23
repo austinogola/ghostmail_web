@@ -1,0 +1,38 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: purple;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign{
+    border: 1px solid black;
+    height: 50%;
+    width: 65%;
+    padding: 10px;
+}
+.text{
+    text-align: center;
+}
+.buttons{
+   
+
+}
+.buttons> div{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
